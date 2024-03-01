@@ -1,0 +1,118 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+*{
+	font-family:"Kode Mono";
+}
+body{
+	background-color:lightpink;
+	color:darkblue;
+	font-size:1.2em;
+}
+
+h1{
+	text-align:center;
+	background-color:aliceblue;
+	width:70%;
+	margin:0 17%;
+	border-radius:20px;
+	font-size: 2.7em;
+	
+}
+
+h2{
+	font-size:2em;
+	color:rgba(84,13,84,1.00);
+}
+
+ul{
+	list-style:none;
+}
+
+li{
+	display:inline;
+	padding:1%;
+	margin:2%;
+	font-size: 1.35em;
+}
+
+li a{
+	text-decoration:none;
+	color:purple;
+}
+
+li a:hover{
+	color:rgba(246,0,77,1.00)
+}
+
+p{
+	font-size:1.1em;
+	padding:1px;
+}
+main{
+	background-color:white;
+	border-radius:6px;
+}
+
+img{
+	float:right;
+	border-radius:5px;
+	margin:3%;
+	width:23%;
+}
+
+footer nav li{
+	padding:0%;
+	margin:0%;
+	display:inline;
+	font-size:0.8em;
+}
+
+#fName{
+	font-size:20px;
+	margin:10px 14px;
+}
+
+#lName{
+	font-size:20px;
+	margin:10px 14px;
+}
+
+#email{
+	font-size:20px;
+	margin:10px 14px;
+}
+
+label{
+	font-size:2em;
+}
+#subutton{
+	border-radius: 5px;
+	width: 12%;
+	height: 15%;
+	margin:10px 14px;
+	background-color:aliceblue;
+}
+
+#resutton{
+	border-radius: 5px;
+	width: 12%;
+	height: 20%;
+	background-color:aliceblue;
+}
+
+input{
+	font-size:2em;
+	color:blue;
+}
+
+#news{
+	float:right;
+	width:30%;
+}
+
+form{
+	width:30%;
+	padding: 0 10%;
+}
